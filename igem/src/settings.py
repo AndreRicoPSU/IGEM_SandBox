@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "ge.apps.GeConfig",
     "omics.apps.OmicsConfig",
+    "server.apps.ServerConfig",
     "debug_toolbar",
 ]
 

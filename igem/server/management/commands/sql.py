@@ -19,7 +19,7 @@ from django.core.management.base import BaseCommand
 try:
     x = str(settings.BASE_DIR)
     sys.path.append(x)
-    from ge import db  # noqa F401
+    from server import sql  # noqa F401
 except:  # noqa E722
     raise
 
